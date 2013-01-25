@@ -327,46 +327,46 @@ nl:
   cancel_my_account: "Mijn account opzeggen"
   cancel_my_account_description: "Ontevreden?"
   canceled: "Geannuleerd"
-  cannot_create_payment_without_payment_methods: "You cannot create a payment for an order without any payment methods defined."
-  cannot_create_returns: "Cannot create returns as this order has no shipped units."
-  cannot_perform_operation: "Cannot perform requested operation"
-  capture: Capture
-  card_code: "Card Code"
-  card_details: "Card details"
-  card_number: "Card Number"
-  card_type_is: "Card type is"
-  cart: Cart
-  categories: Categories
-  category: Category
-  change: Change
-  change_language: "Change Language"
-  change_my_password: "Change my password"
-  charge_total: "Charge Total"
-  charged: Charged
-  charges: Charges
-  check_for_spree_alerts: "Check For Spree Alerts"
-  checkout: Checkout
-  cheque: Cheque
-  choose_a_customer: "Choose a customer"
-  choose_currency: "Choose Currency"
-  choose_dashboard_locale: "Choose Dashboard Locale"
-  city: City
-  clone: Clone
-  close: Close
-  close_all_adjustments: "Close All Adjustments"
-  code: Code
-  combine: Combine
-  complete: complete
-  complete_list: "Complete List"
-  configuration: Configuration
-  configuration_options: "Configuration Options"
-  configurations: Configurations
-  configure_s3: "Configure S3"
-  configured: Configured
-  confirm: Confirm
-  confirm_delete: "Confirm Deletion"
-  confirm_password: "Password Confirmation"
-  continue: Continue
+  cannot_create_payment_without_payment_methods: "U kunt geen betaling voor een bestelling maken zonder dat u een betaalmethode gedefinieerd heeft"
+  cannot_create_returns: "Kan geen retour aanmaken als de bestelling nog niet verstuurd is."
+  cannot_perform_operation: "Kan gevraagde bewerking niet uitvoeren"
+  capture: "Vastleggen"
+  card_code: "Kaart code"
+  card_details: "Kaart informatie"
+  card_number: "Kaart nummer"
+  card_type_is: "Kaarttype is"
+  cart: "Winkelwagen"
+  categories: "Categoriën"
+  category: "Categorie"
+  change: "Aanpassen"
+  change_language: "Wijzig taal"
+  change_my_password: "Wijzig mijn wachtwoord"
+  charge_total: "Bereken Totaal"
+  charged: "In rekening gebracht"
+  charges: "Kosten"
+  check_for_spree_alerts: "Controlleer Spree Alerts"
+  checkout: "Afrekenen"
+  cheque: "Cheque"
+  choose_a_customer: "Kies een klant"
+  choose_currency: "Kies munteenheid"
+  choose_dashboard_locale: "Kies Dashboard Taal"
+  city: "Plaats"
+  clone: "Klonen"
+  close: "Sluiten"
+  close_all_adjustments: "Sluit Alle Wijzigingen"
+  code: "Code"
+  combine: "Combineren"
+  complete: "Voltooien"
+  complete_list: "Volledige lijst"
+  configuration: "Configuratie"
+  configuration_options: "Configuratie opties"
+  configurations: "Configuraties"
+  configure_s3: "Configureer S3"
+  configured: "Geconfigureerd"
+  confirm: "Bevestigen"
+  confirm_delete: "Bevestig verwijderen"
+  confirm_password: "Wachtwoord bevestiging"
+  continue: "Verder"
   continue_shopping: "Continue shopping"
   copy_all_mails_to: "Copy All Mails To"
   cost_currency: "Cost Currency"
