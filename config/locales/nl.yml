@@ -2209,9 +2209,9 @@ nl:
   sort_ordering: "Sort ordering"
   special_instructions: "Special Instructions"
   spree:
-
-    date_picker:
-      format: 'dd/mm/yy'
+    date_picker: 
+      format: ! '%Y/%m/%d'
+      js_format: 'yy/mm/dd'
   spree/order:
     coupon_code: Coupon Code
     date: Date
