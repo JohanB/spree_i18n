@@ -259,7 +259,7 @@ ru:
   analytics_trackers: "Трекеры веб-аналитики"
   and: and
   apply: "Применить"
-  are_you_sure: "Вы уверены"
+  are_you_sure: "Вы уверены?"
   are_you_sure_category: "Вы уверены, что хотите удалить эту категорию?"
   are_you_sure_delete: "Вы уверены, что хотите удалить эту запись?"
   are_you_sure_delete_image: "Вы уверены, что хотите удалить это изображение?"
@@ -1074,12 +1074,13 @@ ru:
   sort_ordering: "Порядок сортировки"
   special_instructions: "Дополнительные инструкции"
   spree: 
-  spree/order: 
-    coupon_code: Код купона
     date: "Дата"
     date_picker: 
       format: '%Y/%m/%d'
+      js_format: 'yy/mm/dd'
     time: "Время"
+  spree/order: 
+    coupon_code: Код купона
   spree_alert_checking: "Проверять обновления новых версий и безопасности Spree"
   spree_alert_not_checking: "Обновления новых версий и безопасности Spree не проверяются"
   spree_gateway_error_flash_for_checkout: "Возникли проблемы с Вашими реквизитами. Пожалуйста, проверьте их и попробуйте ещё раз."

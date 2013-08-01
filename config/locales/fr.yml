@@ -728,9 +728,9 @@ fr:
   payment_method: Méthode de paiement
   payment_methods: Méthodes de paiement
   payment_methods_setting_description: "Configuration des méthodes de paiement utilisables par les clients"
-  payment_processing_failed: "Le paiement ne peut être accomplie, merci de vérifier les informations fournies"
-  payment_processor_choose_banner_text: "If you need help choosing a payment processor, please visit"
-  payment_processor_choose_link: "our payments page"
+  payment_processing_failed: "Le paiement ne peut être effectué, merci de vérifier les informations fournies"
+  payment_processor_choose_banner_text: "Si vous avez besoin d'aide pour schoisir une méthode de paiement, svp visitez"
+  payment_processor_choose_link: "notre page de paiements"
   payment_state: État du paiement
   payment_states: 
     balance_due: solde dû
@@ -1074,12 +1074,13 @@ fr:
   sold: Vendu
   sort_ordering: "Ordre de tri"
   special_instructions: "Instructions spéciales"
-  spree: 
   spree/order: 
     coupon_code: Coupon Code
+  spree: 
     date: Date
     date_picker: 
-      format: 'yy/mm/dd'
+      format: ! '%Y/%m/%d'
+      js_format: 'yy/mm/dd'
     time: Time
   spree_alert_checking: "Check for Spree security and release alerts"
   spree_alert_not_checking: "Not checking for Spree security and release alerts"
@@ -1194,6 +1195,13 @@ fr:
   what_is_this: "Qu'est-ce que c'est ?"
   whats_this: "Qu'est-ce que"
   width: Largeur
+  views:
+    pagination:
+      first: "&laquo; Début"
+      last: "Fin &raquo;"
+      previous: "&lsaquo; Précédent"
+      next: "Suivant &rsaquo;"
+      truncate: "&hellip;"
   year: "Année"
   yes: "Yes"
   you_have_been_logged_out: "Vous avez été déconnecté"

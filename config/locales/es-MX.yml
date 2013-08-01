@@ -906,8 +906,8 @@ es-MX:
   promotion_actions: Actions
   promotion_form: 
     match_policies: 
-      all: Coincide con alguna de las siguientes reglas
-      any: Coincide con todas las siguientes reglas
+      all: Coincide con todas las siguientes reglas
+      any: Coincide con alguna de las siguientes reglas
   promotion_not_found: The coupon code you entered doesn't exist. Please try again.
   promotion_rule: Promotion Rule
   promotion_rule_types: 
@@ -1074,12 +1074,13 @@ es-MX:
   sold: Vendido
   sort_ordering: "Ordenación"
   special_instructions: "Instrucciones especiales"
-  spree: 
   spree/order: 
     coupon_code: Coupon Code
+  spree: 
     date: Date
     date_picker: 
-      format: 'yy/mm/dd'
+      format: ! '%Y/%m/%d'
+      js_format: 'yy/mm/dd'
     time: Time
   spree_alert_checking: "Check for Spree security and release alerts"
   spree_alert_not_checking: "Not checking for Spree security and release alerts"
